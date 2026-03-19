@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joomy Watch Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1 class="gradient-text">Joomy Watch Trainer</h1>
+        </header>
+        
+        <main class="main-content">
+            <div id="start-screen" class="panel">
+                <h2>Configure Your Session</h2>
+                <div class="settings">
+                    <div class="setting-group">
+                        <label for="rounds-input">How many rounds?</label>
+                        <input type="number" id="rounds-input" value="10" min="1" max="100">
+                    </div>
+                    <div class="setting-group">
+                        <label for="mode-select">Training Mode</label>
+                        <select id="mode-select">
+                            <option value="time">Time only</option>
+                            <option value="sentences">Time in sentences</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="btn-start" class="btn-primary">Start Training</button>
+            </div>
+
+            <div id="training-screen" class="panel hidden">
+                <div class="clock-container">
+                    <div class="clock" id="analog-clock">
+                        <div class="hand hour-hand" id="hour-hand"></div>
+                        <div class="hand min-hand" id="minute-hand"></div>
+                        <div class="center-dot"></div>
+                    </div>
+                </div>
+
+                <div class="digital-clocks">
+                    <div class="digital-clock" id="clock-24h">--:--</div>
+                    <div class="digital-clock" id="clock-12h">--:-- --</div>
+                </div>
+
+                <div id="context-prompt" class="hidden"></div>
+
+                <div class="input-section">
+                    <label for="thai-input">Enter time in Thai Romanized:</label>
+                    <input type="text" id="thai-input" placeholder="e.g. bàai sǒrng moong" autocomplete="off">
+                </div>
+
+                <button id="btn-show-solution" class="btn-secondary">Show Solution</button>
+
+                <div id="solution-section" class="hidden">
+                    <div class="solution-display">
+                        <span class="label">Solution:</span>
+                        <span id="solution-text" class="solution-text">---</span>
+                    </div>
+                    <div class="evaluation-buttons">
+                        <button id="btn-correct" class="btn-success">Lösung richtig</button>
+                        <button id="btn-wrong" class="btn-danger">Lösung falsch</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="feedback-section" class="panel hidden">
+                <h2 id="feedback-title">Great Job!</h2>
+                <p id="feedback-message">You are doing great.</p>
+                <button id="btn-next" class="btn-primary">Next Time</button>
+            </div>
+
+            <div id="end-screen" class="panel hidden">
+                <h2>Session Complete!</h2>
+                <p id="final-score-message">You completed the training.</p>
+                <button id="btn-restart" class="btn-primary">Train Again</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

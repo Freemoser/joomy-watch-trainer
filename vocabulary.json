@@ -1,0 +1,39 @@
+{
+  "numbers": {
+    "1": {"de": "eins", "en": "one", "th": "หนึ่ง", "th_rom": "nùeng"},
+    "2": {"de": "zwei", "en": "two", "th": "สอง", "th_rom": "sǒrng"},
+    "3": {"de": "drei", "en": "three", "th": "สาม", "th_rom": "sǎam"},
+    "4": {"de": "vier", "en": "four", "th": "สี่", "th_rom": "sìi"},
+    "5": {"de": "fünf", "en": "five", "th": "ห้า", "th_rom": "hâa"},
+    "6": {"de": "sechs", "en": "six", "th": "หก", "th_rom": "hòk"},
+    "7": {"de": "sieben", "en": "seven", "th": "เจ็ด", "th_rom": "jèt"},
+    "8": {"de": "acht", "en": "eight", "th": "แปด", "th_rom": "bpàet"},
+    "9": {"de": "neun", "en": "nine", "th": "เก้า", "th_rom": "gâo"},
+    "10": {"de": "zehn", "en": "ten", "th": "สิบ", "th_rom": "sìp"},
+    "11": {"de": "elf", "en": "eleven", "th": "สิบเอ็ด", "th_rom": "sìp èt"},
+    "20": {"de": "zwanzig", "en": "twenty", "th": "ยี่สิบ", "th_rom": "yîi sìp"},
+    "30": {"de": "dreißig", "en": "thirty", "th": "สามสิบ", "th_rom": "sǎam sìp"},
+    "40": {"de": "vierzig", "en": "forty", "th": "สี่สิบ", "th_rom": "sìi sìp"},
+    "50": {"de": "fünfzig", "en": "fifty", "th": "ห้าสิบ", "th_rom": "hâa sìp"}
+  },
+  "timeWords": {
+    "et": {"de": "eins (am Ende)", "en": "one (end)", "th": "เอ็ด", "th_rom": "èt"},
+    "minute": {"de": "Minute", "en": "minute", "th": "นาที", "th_rom": "naa-thii"},
+    "half": {"de": "halb", "en": "half", "th": "ครึ่ง", "th_rom": "khrêung"},
+    "mong": {"de": "Uhr (Basis)", "en": "o'clock (base)", "th": "โมง", "th_rom": "moong"},
+    "dtii": {"de": "Uhr (1-5 nachts)", "en": "o'clock (1-5 AM)", "th": "ตี", "th_rom": "dtii"},
+    "mong_chao": {"de": "Uhr (6-11 morgens)", "en": "o'clock (6-11 AM)", "th": "โมงเช้า", "th_rom": "moong châo"},
+    "thiang": {"de": "Mittag", "en": "noon", "th": "เที่ยง", "th_rom": "thîang"},
+    "thiang_kheun": {"de": "Mitternacht", "en": "midnight", "th": "เที่ยงคืน", "th_rom": "thîang kheun"},
+    "baai": {"de": "Nachmittag", "en": "afternoon", "th": "บ่าย", "th_rom": "bàai"},
+    "baai_mong": {"de": "Uhr (13 nachmittags)", "en": "o'clock (1 PM)", "th": "บ่ายโมง", "th_rom": "bàai moong"},
+    "thum": {"de": "Uhr (19-23 nachts)", "en": "o'clock (7-11 PM)", "th": "ทุ่ม", "th_rom": "thûm"}
+  },
+  "sentences": {
+    "at": {"de": "um {time}", "en": "at {time}", "th": "ตอน {time}", "th_rom": "dtawn {time}"},
+    "see_you_at": {"de": "wir sehen uns um {time}", "en": "see you at {time}", "th": "เจอกันตอน {time}", "th_rom": "jer gan dtawn {time}"},
+    "now_it_is": {"de": "jetzt ist es {time}", "en": "right now it is {time}", "th": "ตอนนี้ {time}", "th_rom": "dtawn-níi {time}"},
+    "wake_up_at": {"de": "ich wache um {time} auf", "en": "I wake up at {time}", "th": "ฉันตื่นนอนตอน {time}", "th_rom": "chǎn dtèun norn dtawn {time}"},
+    "sleep_at": {"de": "ich gehe um {time} schlafen", "en": "I go to sleep at {time}", "th": "ฉันเข้านอนตอน {time}", "th_rom": "chǎn khâo norn dtawn {time}"}
+  }
+}
